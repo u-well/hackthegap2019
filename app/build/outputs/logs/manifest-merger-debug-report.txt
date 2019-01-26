@@ -1,0 +1,130 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/neotamoe/Documents/hack-the-gap/2019/hackthegap2019/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/neotamoe/Documents/hack-the-gap/2019/hackthegap2019/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/neotamoe/Documents/hack-the-gap/2019/hackthegap2019/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/neotamoe/Documents/hack-the-gap/2019/hackthegap2019/app/src/main/AndroidManifest.xml:2:1-26:12
+MERGED from [com.android.support:design:27.1.1] /Users/neotamoe/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/ebe6e1d8d4834e923e36e3e41fd08449/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/neotamoe/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/f7c1eff088c9adf4a604b1eb6732bd10/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/neotamoe/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/c05ab5243b156f65d4c2ece5343caee5/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-v4:27.1.1] /Users/neotamoe/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/06b338f5ee357c6a539759b6c5e10fe0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/neotamoe/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/b8fd9682f2c1e2879a8d0a14fd953349/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/neotamoe/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/dc28aa3a341c53c274ed8379e4b551af/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/neotamoe/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/5ee9fdca367c35cc92dafa6c00aa2e29/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/neotamoe/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/c2c7748a1c1100dcea4259e8c6c31539/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/neotamoe/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/8172b318e3c8d9a52f5e3667f40c93aa/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/neotamoe/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/c28c5e12f55a094042dcee8f4269a75d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] /Users/neotamoe/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/c582c4348dc8b91f5c40376070c87853/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/neotamoe/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/4172bb2e1aee21cba823b482230154ba/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] /Users/neotamoe/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/a4a391f181e82fab1ca1fb2d836936bb/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/neotamoe/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/5a96dfb33c50273b741a43364a8caa1f/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/neotamoe/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/2c4314460d67e6b95ca089eba32360fc/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/neotamoe/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/da8aa1dfa6fd54657a2eacacbb212bf5/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] /Users/neotamoe/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/e88c78d66b51f4de6a2166feedbadc04/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/neotamoe/Documents/hack-the-gap/2019/hackthegap2019/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/neotamoe/Documents/hack-the-gap/2019/hackthegap2019/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/neotamoe/Documents/hack-the-gap/2019/hackthegap2019/app/src/main/AndroidManifest.xml:2:1-26:12
+	package
+		ADDED from /Users/neotamoe/Documents/hack-the-gap/2019/hackthegap2019/app/src/main/AndroidManifest.xml:3:5-45
+		INJECTED from /Users/neotamoe/Documents/hack-the-gap/2019/hackthegap2019/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/neotamoe/Documents/hack-the-gap/2019/hackthegap2019/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/neotamoe/Documents/hack-the-gap/2019/hackthegap2019/app/src/main/AndroidManifest.xml
+		ADDED from /Users/neotamoe/Documents/hack-the-gap/2019/hackthegap2019/app/src/main/AndroidManifest.xml:2:1-26:12
+		INJECTED from /Users/neotamoe/Documents/hack-the-gap/2019/hackthegap2019/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/neotamoe/Documents/hack-the-gap/2019/hackthegap2019/app/src/main/AndroidManifest.xml
+		ADDED from /Users/neotamoe/Documents/hack-the-gap/2019/hackthegap2019/app/src/main/AndroidManifest.xml:2:1-26:12
+		INJECTED from /Users/neotamoe/Documents/hack-the-gap/2019/hackthegap2019/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/neotamoe/Documents/hack-the-gap/2019/hackthegap2019/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/neotamoe/Documents/hack-the-gap/2019/hackthegap2019/app/src/main/AndroidManifest.xml:5:5-24:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/neotamoe/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/c05ab5243b156f65d4c2ece5343caee5/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/neotamoe/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/c05ab5243b156f65d4c2ece5343caee5/AndroidManifest.xml:9:5-20
+	android:supportsRtl
+		ADDED from /Users/neotamoe/Documents/hack-the-gap/2019/hackthegap2019/app/src/main/AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from /Users/neotamoe/Documents/hack-the-gap/2019/hackthegap2019/app/src/main/AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from /Users/neotamoe/Documents/hack-the-gap/2019/hackthegap2019/app/src/main/AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from /Users/neotamoe/Documents/hack-the-gap/2019/hackthegap2019/app/src/main/AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from /Users/neotamoe/Documents/hack-the-gap/2019/hackthegap2019/app/src/main/AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from /Users/neotamoe/Documents/hack-the-gap/2019/hackthegap2019/app/src/main/AndroidManifest.xml:11:9-40
+activity#com.example.android.hackthegap.MainActivity
+ADDED from /Users/neotamoe/Documents/hack-the-gap/2019/hackthegap2019/app/src/main/AndroidManifest.xml:12:9-21:20
+	android:label
+		ADDED from /Users/neotamoe/Documents/hack-the-gap/2019/hackthegap2019/app/src/main/AndroidManifest.xml:14:13-45
+	android:theme
+		ADDED from /Users/neotamoe/Documents/hack-the-gap/2019/hackthegap2019/app/src/main/AndroidManifest.xml:15:13-56
+	android:name
+		ADDED from /Users/neotamoe/Documents/hack-the-gap/2019/hackthegap2019/app/src/main/AndroidManifest.xml:13:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/neotamoe/Documents/hack-the-gap/2019/hackthegap2019/app/src/main/AndroidManifest.xml:16:13-20:29
+action#android.intent.action.MAIN
+ADDED from /Users/neotamoe/Documents/hack-the-gap/2019/hackthegap2019/app/src/main/AndroidManifest.xml:17:17-69
+	android:name
+		ADDED from /Users/neotamoe/Documents/hack-the-gap/2019/hackthegap2019/app/src/main/AndroidManifest.xml:17:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/neotamoe/Documents/hack-the-gap/2019/hackthegap2019/app/src/main/AndroidManifest.xml:19:17-77
+	android:name
+		ADDED from /Users/neotamoe/Documents/hack-the-gap/2019/hackthegap2019/app/src/main/AndroidManifest.xml:19:27-74
+activity#com.example.android.hackthegap.RelaxActivity
+ADDED from /Users/neotamoe/Documents/hack-the-gap/2019/hackthegap2019/app/src/main/AndroidManifest.xml:22:9-51
+	android:name
+		ADDED from /Users/neotamoe/Documents/hack-the-gap/2019/hackthegap2019/app/src/main/AndroidManifest.xml:22:19-48
+activity#com.example.android.hackthegap.HelpActivity
+ADDED from /Users/neotamoe/Documents/hack-the-gap/2019/hackthegap2019/app/src/main/AndroidManifest.xml:23:9-59
+	android:name
+		ADDED from /Users/neotamoe/Documents/hack-the-gap/2019/hackthegap2019/app/src/main/AndroidManifest.xml:23:19-47
+uses-sdk
+INJECTED from /Users/neotamoe/Documents/hack-the-gap/2019/hackthegap2019/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/neotamoe/Documents/hack-the-gap/2019/hackthegap2019/app/src/main/AndroidManifest.xml
+INJECTED from /Users/neotamoe/Documents/hack-the-gap/2019/hackthegap2019/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:design:27.1.1] /Users/neotamoe/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/ebe6e1d8d4834e923e36e3e41fd08449/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] /Users/neotamoe/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/ebe6e1d8d4834e923e36e3e41fd08449/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/neotamoe/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/f7c1eff088c9adf4a604b1eb6732bd10/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/neotamoe/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/f7c1eff088c9adf4a604b1eb6732bd10/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/neotamoe/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/c05ab5243b156f65d4c2ece5343caee5/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/neotamoe/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/c05ab5243b156f65d4c2ece5343caee5/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:27.1.1] /Users/neotamoe/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/06b338f5ee357c6a539759b6c5e10fe0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] /Users/neotamoe/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/06b338f5ee357c6a539759b6c5e10fe0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/neotamoe/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/b8fd9682f2c1e2879a8d0a14fd953349/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/neotamoe/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/b8fd9682f2c1e2879a8d0a14fd953349/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/neotamoe/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/dc28aa3a341c53c274ed8379e4b551af/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/neotamoe/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/dc28aa3a341c53c274ed8379e4b551af/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/neotamoe/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/5ee9fdca367c35cc92dafa6c00aa2e29/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/neotamoe/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/5ee9fdca367c35cc92dafa6c00aa2e29/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/neotamoe/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/c2c7748a1c1100dcea4259e8c6c31539/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/neotamoe/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/c2c7748a1c1100dcea4259e8c6c31539/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/neotamoe/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/8172b318e3c8d9a52f5e3667f40c93aa/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/neotamoe/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/8172b318e3c8d9a52f5e3667f40c93aa/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/neotamoe/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/c28c5e12f55a094042dcee8f4269a75d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/neotamoe/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/c28c5e12f55a094042dcee8f4269a75d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] /Users/neotamoe/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/c582c4348dc8b91f5c40376070c87853/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] /Users/neotamoe/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/c582c4348dc8b91f5c40376070c87853/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/neotamoe/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/4172bb2e1aee21cba823b482230154ba/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/neotamoe/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/4172bb2e1aee21cba823b482230154ba/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/neotamoe/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/a4a391f181e82fab1ca1fb2d836936bb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/neotamoe/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/a4a391f181e82fab1ca1fb2d836936bb/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/neotamoe/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/5a96dfb33c50273b741a43364a8caa1f/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/neotamoe/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/5a96dfb33c50273b741a43364a8caa1f/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/neotamoe/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/2c4314460d67e6b95ca089eba32360fc/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/neotamoe/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/2c4314460d67e6b95ca089eba32360fc/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/neotamoe/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/da8aa1dfa6fd54657a2eacacbb212bf5/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/neotamoe/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/da8aa1dfa6fd54657a2eacacbb212bf5/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/neotamoe/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/e88c78d66b51f4de6a2166feedbadc04/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/neotamoe/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/e88c78d66b51f4de6a2166feedbadc04/AndroidManifest.xml:20:5-44
+INJECTED from /Users/neotamoe/Documents/hack-the-gap/2019/hackthegap2019/app/src/main/AndroidManifest.xml
+INJECTED from /Users/neotamoe/Documents/hack-the-gap/2019/hackthegap2019/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/neotamoe/Documents/hack-the-gap/2019/hackthegap2019/app/src/main/AndroidManifest.xml
+		ADDED from /Users/neotamoe/Documents/hack-the-gap/2019/hackthegap2019/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/neotamoe/Documents/hack-the-gap/2019/hackthegap2019/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/neotamoe/Documents/hack-the-gap/2019/hackthegap2019/app/src/main/AndroidManifest.xml
+		ADDED from /Users/neotamoe/Documents/hack-the-gap/2019/hackthegap2019/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/neotamoe/Documents/hack-the-gap/2019/hackthegap2019/app/src/main/AndroidManifest.xml
