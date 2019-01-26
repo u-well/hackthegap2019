@@ -1,5 +1,5 @@
-# whenIneedU
-## Hack the Gap 2019
+### whenIneedU
+#### Hack the Gap 2019
 
 # Team Participants
 [Rose Anderson](https://github.com/jRose-A)
@@ -9,4 +9,4 @@
 [Neota Moe](https://github.com/neotamoe)
 [Kiersten Ruge](https://github.com/onegirlrhumba)
 [Cara Weggler](https://github.com/cweggler)
-[Chris Voerding](https://github.com/Chris-V217)
+[Chris Voerding](https://github.com/Chris-V217)  
