@@ -21,8 +21,26 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        Button button = (Button) findViewById(R.id.button2);
-        button.setOnClickListener(new View.OnClickListener() {
+        Button helpButton = (Button) findViewById(R.id.help);
+        helpButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Log.i("clicks", "Go to a new page");
+                Intent i = new Intent(MainActivity.this, HelpActivity.class);
+                startActivity(i);
+
+            }
+        });
+
+        Button activitiesButton = (Button) findViewById(R.id.activities);
+        activitiesButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Log.i("clicks", "Go to a new page");
+                Intent i = new Intent(MainActivity.this, RelaxActivity.class);
+
+        Button smsbutton = (Button) findViewById(R.id.smsbutton);
+        smsbutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Log.i("clicks", "Go to a new page");
