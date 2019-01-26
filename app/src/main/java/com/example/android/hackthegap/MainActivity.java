@@ -38,6 +38,13 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Log.i("clicks", "Go to a new page");
                 Intent i = new Intent(MainActivity.this, RelaxActivity.class);
+
+        Button smsbutton = (Button) findViewById(R.id.smsbutton);
+        smsbutton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Log.i("clicks", "Go to a new page");
+                Intent i = new Intent(MainActivity.this, HelpActivity.class);
                 startActivity(i);
 
             }
