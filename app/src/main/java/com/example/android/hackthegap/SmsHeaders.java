@@ -10,6 +10,16 @@ public class SmsHeaders {
     private String username;
     private String message;
 
+    public SmsHeaders(String ACCOUNT_SID, String AUTH_TOKEN, PhoneNumber to, PhoneNumber from, String username, String message){
+        this.ACCOUNT_SID = ACCOUNT_SID;
+        this.AUTH_TOKEN = AUTH_TOKEN;
+        this.to = to;
+        this.from = from;
+        this.username = username;
+        this.message = message;
+
+    }
+
     public String getACCOUNT_SID() {
         return ACCOUNT_SID;
     }
