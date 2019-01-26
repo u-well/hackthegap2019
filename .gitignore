@@ -13,3 +13,4 @@
 .idea/gradle.xml
 .idea/caches
 build/
+.env
