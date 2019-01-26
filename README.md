@@ -10,4 +10,3 @@
 [Kiersten Ruge](https://github.com/onegirlrhumba)
 [Cara Weggler](https://github.com/cweggler)
 [Chris Voerding](https://github.com/Chris-V217)
-
