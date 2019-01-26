@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        Button smsbutton = (Button) findViewById(R.id.button3);
+        Button smsbutton = (Button) findViewById(R.id.smsbutton);
         smsbutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -50,4 +50,4 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
-    }
+}
