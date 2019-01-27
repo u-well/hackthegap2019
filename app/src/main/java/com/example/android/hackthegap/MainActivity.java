@@ -22,6 +22,7 @@ import android.view.MenuItem;
 import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
+    private static String CHANNEL_ID = "whenIneedU";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
         createNotificationChannel();
 
-        Button helpButton = (Button) findViewById(R.id.help);
+        Button helpButton = findViewById(R.id.help);
         helpButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -42,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        Button activitiesButton = (Button) findViewById(R.id.activities);
+        Button activitiesButton = findViewById(R.id.activities);
         activitiesButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -51,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        Button smsbutton = (Button) findViewById(R.id.smsbutton);
+        Button smsbutton = findViewById(R.id.smsbutton);
         smsbutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -74,12 +75,13 @@ public class MainActivity extends AppCompatActivity {
 
     private void addNotification() {
 
-        String CHANNEL_ID = "whenIneedU";
         NotificationCompat.Builder builder = new NotificationCompat.Builder(MainActivity.this, CHANNEL_ID)
                 .setDefaults(NotificationCompat.DEFAULT_ALL)
                 .setSmallIcon(R.mipmap.ic_launcher_round)
                 .setContentTitle("whenIneedU")
-                .setContentText("In a crowded space? Try closing your eyes and counting to 10. You've got this!");
+                .setContentText("In a crowded space? Try closing your eyes and counting to 10. You've got this!")
+                .setStyle(new NotificationCompat.BigTextStyle()
+                        .bigText("In a crowded space? Try closing your eyes and counting to 10. You've got this!"));
 
         Intent notificationIntent = new Intent(MainActivity.this, MainActivity.class);
         PendingIntent contentIntent = PendingIntent.getActivity(MainActivity.this, 0, notificationIntent, PendingIntent.FLAG_UPDATE_CURRENT);
@@ -94,7 +96,7 @@ public class MainActivity extends AppCompatActivity {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
             CharSequence name = "whenIneedU";
             String description = "whenIneedU";
-            String CHANNEL_ID = "whenIneedU";
+
             int importance = NotificationManager.IMPORTANCE_DEFAULT;
             NotificationChannel channel = new NotificationChannel(CHANNEL_ID, name, importance);
             channel.setDescription(description);
