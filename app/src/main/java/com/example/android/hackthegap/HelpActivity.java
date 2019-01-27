@@ -21,20 +21,20 @@ public class HelpActivity extends AppCompatActivity {
         setContentView(R.layout.activity_help);
 
         Button smsbutton = (Button) findViewById(R.id.smsbutton);
-        smsbutton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                onSmsClick();
+        //smsbutton.setOnClickListener(new View.OnClickListener() {
+            //@Override
+            //public void onClick(View v) {
+                //onSmsClick();
 
-            }
+            //}
 
 
-        });
+        //});
 
 
     }
 
-    public void onSmsClick(){
+    /*public void onSmsClick(){
         String ACCOUNT_SID = "ACfaac42048994c9996be0bac5ebea70c5";
         String AUTH_TOKEN = "800183d18af574df943bdfcdfabdb84f";
         String prevalidatedto = "+15073512831";
@@ -65,5 +65,5 @@ public class HelpActivity extends AppCompatActivity {
 
         }
 
-    }
+    }*/
 }
