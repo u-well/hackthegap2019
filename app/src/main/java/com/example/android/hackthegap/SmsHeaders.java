@@ -1,9 +1,9 @@
 package com.example.android.hackthegap;
-import com.twilio.Twilio;
-import com.twilio.rest.api.v2010.account.Message;
-import com.twilio.type.PhoneNumber;
+//import com.twilio.Twilio;
+//import com.twilio.rest.api.v2010.account.Message;
+//import com.twilio.type.PhoneNumber;
 public class SmsHeaders {
-    private String ACCOUNT_SID;
+    /*private String ACCOUNT_SID;
     private String AUTH_TOKEN;
     private PhoneNumber to;
     private PhoneNumber from;
@@ -66,5 +66,5 @@ public class SmsHeaders {
 
     public void setMessage(String message) {
         this.message = message;
-    }
+    }*/
 }
