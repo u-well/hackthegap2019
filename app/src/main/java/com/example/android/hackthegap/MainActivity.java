@@ -13,6 +13,7 @@ import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v4.app.NotificationCompat;
+import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
@@ -20,17 +21,38 @@ import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Button;
+import android.support.v4.view.PagerAdapter;
 
 public class MainActivity extends AppCompatActivity {
+    ViewPager viewPager;
+    PagerAdapter adapter;
+
+    int[] images;
+
     private static String CHANNEL_ID = "whenIneedU";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
         createNotificationChannel();
+
+        // reference the images and put them in our array
+        images = new int[] { R.drawable.rivers_pissmeoff,
+                R.drawable.holyshirtballs,
+                R.drawable.cheerios,
+                R.drawable.selflove
+                };
+
+        // get a reference to the ViewPager in the layout
+        viewPager = (ViewPager) findViewById(R.id.pager);
+
+        // Initialize our PagerAdapter
+        adapter = new ImagePagerAdapter(MainActivity.this, images);
+
+        // Bind the PagerAdapter to the ViewPager
+        viewPager.setAdapter(adapter);
+
 
         Button helpButton = findViewById(R.id.help);
         helpButton.setOnClickListener(new View.OnClickListener() {
@@ -52,16 +74,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        Button smsbutton = findViewById(R.id.smsbutton);
-        smsbutton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Log.i("clicks", "Go to a new page");
-                Intent i = new Intent(MainActivity.this, HelpActivity.class);
-                startActivity(i);
-
-            }
-        });
 
         Button notifyButton = findViewById(R.id.notify);
         notifyButton.setOnClickListener(new View.OnClickListener() {
